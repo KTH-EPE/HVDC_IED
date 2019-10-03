@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PMOD-rescue)(type Legacy)(uri ${KIPRJMOD}/PMOD-rescue.lib)(options "")(descr ""))
+  (lib (name max7301)(type Legacy)(uri ${KIPRJMOD}/max7301.lib)(options "")(descr ""))
+)

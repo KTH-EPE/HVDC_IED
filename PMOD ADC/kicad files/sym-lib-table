@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PMOD-rescue)(type Legacy)(uri ${KIPRJMOD}/PMOD-rescue.lib)(options "")(descr ""))
+  (lib (name adas)(type Legacy)(uri ${KIPRJMOD}/adas.lib)(options "")(descr ""))
+)
