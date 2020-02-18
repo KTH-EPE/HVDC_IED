@@ -314,7 +314,10 @@ We start connecting the module input pins to the digital input ports on the peri
 
 The sliders on the front panel are also connected via the Digital Input (DIGIN) PMOD module. Connect the middle pin of the bottom two pitches to the two bottom left pins of the module. The lowermost pin on the module is connected to the middle switch. Third pin in the row is connected to the bottom switch.
 
- The inputs 1-10 are connected to the pins on the left row of the DIGIN module. The rightmost digital input port 1 on the back panel links to the third pin from the bottom.  
+<div style="text-align:center"><img src="./IED_images/DIN_LEDs.jpg" width="500x"> 
+</div>
+
+The inputs 1-10 are connected to the pins on the left row of the DIGIN module. The rightmost digital input port 1 on the back panel links to the third pin from the bottom.  
 
 <div style="text-align:center"><img src="./IED_images/DIN_pins(2)1_10.jpg" width="500x"> 
 </div>
