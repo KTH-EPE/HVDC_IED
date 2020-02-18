@@ -209,21 +209,21 @@ Connect the power supply to strands on the big LED. Spare the terminals with som
 
 ## USB peripherals
 
-Use micro USB to USB cables to connect the outside ports to nests on the board.
+Use micro USB to USB cables to connect the outside ports to nests on the board. The USB connector at the front is used for data output and setting configuration. It is connected via the UART terminal at the board. The USB peripheral at the back is used for programming the device and connects at the terminal next to the terminal for power supply. 
 
-<div style="text-align:center"><img src="./IED_images/usb1_edited.jpg" width="500x">  
+<div style="text-align:center"><img src="./IED_images/usb1_fixed_edited(1).jpg" width="500x">  
 </div>
 
-<div style="text-align:center"><img src="./IED_images/usb2_edited.jpg" width="500x">  
+<div style="text-align:center"><img src="./IED_images/usb2_fixed_edited.jpg" width="500x">  
 </div>
 
   
 
 ## PMOD ADC 
 
-The set up is extended with a peripheral module (PMOD) Analog to Digital Converters (ADCs) connected via JB and JA headers on the zedboard. 
+The set up is extended with a peripheral module (PMOD) Analog to Digital Converters (ADCs) connected via  headers on the zedboard. 
 
-<div style="text-align:center"><img src="./IED_images/ADC_placement.jpg" width="500x">  
+<div style="text-align:center"><img src="./IED_images/ADC_placement(2).jpg" width="500x"> 
 </div>
 
 The module is supplied power from the power supply module with an MTE 2-pin cable.
@@ -244,9 +244,9 @@ Solder the pins to a metal wire in order to route them into IED's GND interface 
 <div style="text-align:center"><img src="./IED_images/ground_pins_wire_port.jpg" width="500x"> 
 </div>
 
-The ADC module interfaces with IED's 3.3 V logical pins on the back of the box. 
+ The ADC module interfaces with IED's 3.3 V logical pins on the back of the box. 
 
-<div style="text-align:center"><img src="./IED_images/ADC1_pins1.jpg" width="500x">  
+<div style="text-align:center"><img src="./IED_images/ADC1_ports_wire.jpg" width="500x"> 
 </div>
 
 The wires are plugged onto metal wire pieces
@@ -254,18 +254,20 @@ The wires are plugged onto metal wire pieces
 <div style="text-align:center"><img src="./IED_images/ADC1_pins_closer2.jpg" width="500x"> 
 </div>
 
-In case the board is placed far enough from the back panel, we might need to use jointed wires extended by a pin header. 
+In case the board is placed far enough from the back panel, we might need to use jointed wires extended by a pin header. Here we manage to reach the ports with one wire length and metal wire pieces 4-5 cm in length. 
 
-<div style="text-align:center"><img src="./IED_images/analog_input_wires.jpg" width="500x"> 
+<div style="text-align:center"><img src="./IED_images/ADC_1_wire.jpg" width="500x"> 
 </div>
 
-<div style="text-align:center"><img src="./IED_images/analog_inputs2.jpg" width="500x"> 
+In case there is no enough length, an alternative would be stacking two wires together with a pin header.
+
+<div style="text-align:center"><img src="./IED_images/ADC_2_wires.jpg" width="500x"> 
 </div>
 
-The wires have the following arrangement at the connector side
+The wires have the following arrangement at the connector periphery side
 
 <div style="text-align:center"><img src="./IED_images/ADC_wires1.png" width="300x">  
-</div>
+                          </div>
 
 The order from left to right repeats at the ADC side from bottom to top. The signal inputs are intertwined with ground wires.
 
@@ -279,17 +281,20 @@ The PMOD 2x6 headers are located too close together, so that the second ADC modu
 <div style="text-align:center"><img src="./IED_images/ADC_extender.jpg" width="500x"> 
 </div>
 
-Plug in the extender and connect the power supply with an MTE cable in a same orientation as the first module. 
+Plug in the extender and connect the power supply with an MTE cable in the same arrangement as the first module (red wire closer to the middle of the module). The module connects to the board via an extender plugged in JA headers. 
 
-<div style="text-align:center"><img src="./IED_images/ADC2_power.jpg" width="500x"> 
+<div style="text-align:center"><img src="./IED_images/ADC2_power(3).jpg" width="500x"> 
 </div>
 
-Connect the input pins on the periphery to the 1x16 pin header on the ADC module in the order identical to the first module. The signal pins correspond with the analog input connectors 9 -16. Similarly to ADC 1, all ground wires are intertwined with the signal wires when connected to the ADC pin header. The other ends of ground wires are soldered together to a piece of wire, which is plugged to a GND connector on the periphery. 
+Connect the input pins on the periphery to the 1x16 pin header on the ADC module in the order identical to the first module. The signal pins correspond with the analog input connectors 9 -16. 
 
-<div style="text-align:center"><img src="./IED_images/ADC2_pins_order.jpg" width="500x"> 
+<div style="text-align:center"><img src="./IED_images/ADC2_pins_order(1).jpg" width="500x"> 
 </div>
 
+Similarly to ADC 1, all ground wires are intertwined with the signal wires when connected to the ADC pin header. The other ends of ground wires are soldered together to a piece of wire, which is plugged to a GND connector on the periphery. 
 
+<div style="text-align:center"><img src="./IED_images/ADC2_pins_order_gnd.jpg" width="500x"> 
+</div>
 
 ## PMOD DIGITAL INPUT
 The digital input module enables us to incorporate more input signals and transmit them to the board. It is used to receive digital values from a simulator (RTDS). The module looks like this
@@ -307,12 +312,9 @@ We start connecting the module input pins to the digital input ports on the peri
 <div style="text-align:center"><img src="./IED_images/DIN_pins11_24.jpg" width="500x"> 
 </div>
 
-The sliders on the front panel are also connected via the Digital Input (DIGIN) PMOD module. Connect the middle pin of the bottom two pitches to the two bottom left pins of the module. The lowermost pin on the module is connected to the middle switch. The second pin is connected to the bottom switch.
+The sliders on the front panel are also connected via the Digital Input (DIGIN) PMOD module. Connect the middle pin of the bottom two pitches to the two bottom left pins of the module. The lowermost pin on the module is connected to the middle switch. Third pin in the row is connected to the bottom switch.
 
-<div style="text-align:center"><img src="./IED_images/DIN_LEDs.jpg" width="500x"> 
-</div>
-
-The inputs 1-10 are connected to the pins on the left row of the DIGIN module. The rightmost digital input port 1 on the back panel links to the third pin from the bottom.  
+ The inputs 1-10 are connected to the pins on the left row of the DIGIN module. The rightmost digital input port 1 on the back panel links to the third pin from the bottom.  
 
 <div style="text-align:center"><img src="./IED_images/DIN_pins(2)1_10.jpg" width="500x"> 
 </div>
@@ -337,6 +339,11 @@ Both input and output PMODs cannot be plugged into 2x6 header simultaneously. Th
 The module is connected in the following arrangement.
 
 <div style="text-align:center"><img src="./IED_images/DOUT_supply(1).jpg" width="500x"> 
+</div>
+
+On the other end it is connected via the bottom row of the JD 2x6 header on the board. 
+
+<div style="text-align:center"><img src="./IED_images/DOUT_boardside.jpg" width="500x"> 
 </div>
 
 The power is supply via the pins in the middle.
