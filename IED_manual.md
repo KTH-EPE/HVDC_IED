@@ -1,3 +1,5 @@
+​                                                                                                                                                                                                                                   
+
 # IED building manual
 
 This manual shows how to build a laboratory protection intelligent electronic device (IED) compatible with common real-time digital simulators and studies for high-voltage direct-current (HVDC) grids. The device was built as part of the PROMOTioN research project, which aims to develop meshed HVDC offshore grids on the basis of cost-effective and reliable technological innovation. In the picture below you can see the finalized look of the relay. 
@@ -22,7 +24,9 @@ On top of the screws attach the coupling nuts.
 <div style="text-align:center"><img src="./IED_images/couplings.png" width="300x">  
 </div>
 Put long 2 mm screws into the 2 smaller holes and fixate ones with nuts to attach the FMC board in the future.
-<!--Put an image here-->
+<div style="text-align:center"><img src="./IED_images/FMC_screws(1).jpg" width="500x"> 
+</div>
+
 Proceed to mounting the Zedboard using 3 mm screws and nuts.
 
 <div style="text-align:center"><img src="./IED_images/board_mount.png" width="300x">  
@@ -67,21 +71,8 @@ The 230V side of the adaptor will connect these cables, which we have prepared b
 </div>
 
 Connect them to the feed supply terminals in the following manner. 
-<div style="text-align:center"><img src="./IED_images/power_supply_feed.png" width="300x">  
-</div>
-We add an extra earth cable bind connected to the metal case of an appliance. Here, we used a crimper to connect the ring to the cable.
 
-<div style="text-align:center"><img src="./IED_images/earth_ring_cable.jpg" width="500x"> 
-</div>
-
- The ring is kept in place with a bolt and screw to the bottom edge of the box. 
-
-<div style="text-align:center"><img src="./IED_images/earth_ring.jpg" width="500x"> 
-</div>
-
-The power supply block is covered with a shield cut from plexiglas. The shield is attached with 4 machine screws into female spacers. 
-
-<div style="text-align:center"><img src="./IED_images/power_supply_shield.jpg" width="500x"> 
+<div style="text-align:center"><img src="./IED_images/power_supply_wires.jpg" width="500x"> 
 </div>
 
 
@@ -108,6 +99,24 @@ Attach the USB connector and LED lights to the front panel.
 A larger green LED is screwed to the panel from the inside of the box.
 
 <div style="text-align:center"><img src="./IED_images/LED_main_nut.jpg" width="500x">  
+</div>
+
+Looking at the power supply, we add an extra earth cable bind connected to the metal case of an appliance. Here, we used a crimper to connect the ring to the cable.
+
+<div style="text-align:center"><img src="./IED_images/earth_ring_cable.jpg" width="500x"> 
+</div>
+
+<div style="text-align:center"><img src="./IED_images/power_supply_feed.png" width="300x">  
+</div>
+
+The ring is kept in place with a bolt and screw to the bottom edge of the box. 
+
+<div style="text-align:center"><img src="./IED_images/earth_ring.jpg" width="500x"> 
+</div>
+
+The power supply block is covered with a shield cut from plexiglas. The shield is attached with 4 machine screws into female spacers. 
+
+<div style="text-align:center"><img src="./IED_images/power_supply_shield.jpg" width="500x"> 
 </div>
 
 
