@@ -292,8 +292,8 @@ function read_ch(ch_name, ch_plotname, ch_data, ch_color, ch_length, handles_axe
     xlabel('time [ms]');
     ylabel('voltage [V]');
     if strcmp(orientation,'left')
-        voltage_upper_limit = voltage_upper_limit(handles);
-        voltage_lower_limit = voltage_lower_limit(handles);
+        voltage_upper_limit = voltage_upper_limit_Callback(handles);
+        voltage_lower_limit = voltage_lower_limit_Callback(handles);
         ylim([voltage_lower_limit voltage_upper_limit]); 
         Ytick = get(handles.axes2, 'Ytick');
         distance = Ytick(2)-Ytick(1);
@@ -308,8 +308,8 @@ function read_ch(ch_name, ch_plotname, ch_data, ch_color, ch_length, handles_axe
         end
         set(handles.axes2,'YTick',newYTicks,'YTickLabel',num2str(newYTicks'))
     else
-        current_upper_limit = current_upper_limit(handles);
-        current_lower_limit = current_lower_limit(handles);
+        current_upper_limit = current_upper_limit_Callback(handles);
+        current_lower_limit = current_lower_limit_Callback(handles);
         ylim([current_lower_limit current_upper_limit]);
         Ytick = get(handles.axes2, 'Ytick');
         distance = Ytick(2)-Ytick(1);
@@ -376,8 +376,8 @@ function read_ch_lpf(ch_name, ch_plotname, ch_data, ch_color, ch_length, handles
     xlabel('time [ms]');
     ylabel('voltage [V]');
     if strcmp(orientation,'left')
-        voltage_upper_limit = voltage_upper_limit(handles);
-        voltage_lower_limit = voltage_lower_limit(handles);
+        voltage_upper_limit = voltage_upper_limit_Callback(handles);
+        voltage_lower_limit = voltage_lower_limit_Callback(handles);
         ylim([voltage_lower_limit voltage_upper_limit]); 
         Ytick = get(handles.axes2, 'Ytick');
         distance = Ytick(2)-Ytick(1);
@@ -392,8 +392,8 @@ function read_ch_lpf(ch_name, ch_plotname, ch_data, ch_color, ch_length, handles
         end
         set(handles.axes2,'YTick',newYTicks,'YTickLabel',num2str(newYTicks'))
     else
-        current_upper_limit = current_upper_limit(handles);
-        current_lower_limit = current_lower_limit(handles);
+        current_upper_limit = current_upper_limit_Callback(handles);
+        current_lower_limit = current_lower_limit_Callback(handles);
         ylim([current_lower_limit current_upper_limit]); 
         Ytick = get(handles.axes2, 'Ytick');
         distance = Ytick(2)-Ytick(1);
@@ -1765,28 +1765,27 @@ function save_data_Callback(hObject, eventdata, handles)
     
    
 
-function voltage_upper_limit_Callback(hObject, eventdata, handles)
-function voltage_upper_limit = voltage_upper_limit(handles)
+function voltage_upper_limit = voltage_upper_limit_Callback(handles)
 voltage_upper_limit = str2num(handles.voltage_upper_limit.String);
 
-function voltage_lower_limit_Callback(hObject, eventdata, handles)
-function voltage_lower_limit = voltage_lower_limit(handles)
+
+function voltage_lower_limit = voltage_lower_limit_Callback(handles)
 voltage_lower_limit = str2num(handles.voltage_lower_limit.String);
 
-function current_upper_limit_Callback(hObject, eventdata, handles)
-function current_upper_limit = current_upper_limit(handles)
+% function current_upper_limit_Callback(handles)
+ function current_upper_limit = current_upper_limit_Callback(handles)
 current_upper_limit = str2num(handles.current_upper_limit.String);
 
-function current_lower_limit_Callback(hObject, eventdata, handles)
-function current_lower_limit = current_lower_limit(handles)
+% function current_lower_limit_Callback(handles)
+function current_lower_limit = current_lower_limit_Callback(handles)
 current_lower_limit = str2num(handles.current_lower_limit.String);
 
-function left_limit_Callback(hObject, eventdata, handles)
-function left_limit = left_limit(handles)
+function left_limit_Callback(handles)
+% function left_limit = left_limit(handles)
 left_limit = str2num(handles.left_limit.String);
 
-function left_limit_lower_Callback(hObject, eventdata, handles)
-function left_limit_lower = left_limit_lower(handles)
+function left_limit_lower_Callback(handles)
+% function left_limit_lower = left_limit_lower(handles)
 left_limit_lower = str2num(handles.left_limit_lower.String);
 
 

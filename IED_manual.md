@@ -11,11 +11,10 @@ The building process starts with assembling the physical box, which is going to 
 Before assembling the parts together, it is important to position the components on the bottom panel and drill the holes for mounting the Zedboard, FMC and a power supply. 
 <div style="text-align:center"><img src="./IED_images/placement.png" width="300x">  
 </div>
-Drill the holes in respective locations. For mounting the board and the power supply, holes need to be 3mm in diameter. 2 holes for FMC should be 2mm. 
+Drill the holes in respective locations. For mounting the board and the power supply, holes need to be 3 mm in diameter. 2 holes for FMC should be 2 mm. 
 <div style="text-align:center"><img src="./IED_images/holes2.png" width="300x">  
 </div>
-After the holes are done, screw the boards to the bottom panel. 
-Take the top screws out of the 4 couplings of the Zedboard and screw them into the panel from the bottom. 
+After the holes are done, screw the boards to the bottom panel. Take the top screws out of the 4 couplings of the Zedboard and screw them into the panel from the bottom. 
 
 <div style="text-align:center"><img src="./IED_images/zed_screws.png" width="300x">  
 </div>
@@ -24,7 +23,7 @@ On top of the screws attach the coupling nuts.
 </div>
 Put long 2 mm screws into the 2 smaller holes and fixate ones with nuts to attach the FMC board in the future.
 <!--Put an image here-->
-Proceed to mounting the zedboard using 3mm machine screws and nuts.
+Proceed to mounting the Zedboard using 3 mm screws and nuts.
 
 <div style="text-align:center"><img src="./IED_images/board_mount.png" width="300x">  
 </div>
@@ -37,11 +36,12 @@ To connect the switched-mode power supply we will need to install wire-to-board 
 Solder the terminal blocks in the same position as the removed terminal blocks.
 <div style="text-align:center"><img src="./IED_images/power_supply2.png" width="300x">  
 </div>
-The power supply board is ready. Use 3mm machine screws to connect female-to-male space bolts to the bottom panel.
-<div style="text-align:center"><img src="./IED_images/screws_power.png" width="300x">  
+The power supply board is ready. Use 3 mm screws to connect female-to-male space bolts to the bottom panel.
+<div style="text-align:center"><img src="./IED_images/screws_power(1).png" width="300x"> 
 </div>
-<div style="text-align:center"><img src="./IED_images/spacers_power.png" width="300x">  
+<div style="text-align:center"><img src="./IED_images/spacers_power(1).png" width="300x">  
 </div>
+
 The power supply is plugged in the socket with a power cable. Cut the cable and remove the insulation, there has to be 3 wires: positive, negative and ground.
 <div style="text-align:center"><img src="./IED_images/power_cable.png" width="300x">  
 </div>
@@ -54,16 +54,18 @@ The default charger wire would be too long, so it is also advisable to shorten i
 <div style="text-align:center"><img src="./IED_images/shortened.png" width="300x">  
 </div>
 Before soldering the wires make sure there are shrink tubes of two sizes for both conductor and drain wires. The shrink tubes will provide insulation between core, drain wire and the environment. 
-<div style="text-align:center"><img src="./IED_images/shortened_cable.png" width="300x">  
+<div style="text-align:center"><img src="./IED_images/shortened_cable(1).png" width="300x">  
 </div>
-<div style="text-align:center"><img src="./IED_images/shortened_shrinked.png" width="300x">  
+<div style="text-align:center"><img src="./IED_images/shortened_shrinked(1).png" width="300x">  
 </div>
+
 The charger is shortened.
 <div style="text-align:center"><img src="./IED_images/shortened_adaptor.png" width="300x">  
 </div>
 The 230V side of the adaptor will connect these cables, which we have prepared bare ends of.
-<div style="text-align:center"><img src="./IED_images/power_wires.png" width="300x">  
+<div style="text-align:center"><img src="./IED_images/power_wires(1).png" width="300x">  
 </div>
+
 Connect them to the feed supply terminals in the following manner. 
 <div style="text-align:center"><img src="./IED_images/power_supply_feed.png" width="300x">  
 </div>
@@ -85,7 +87,7 @@ The power supply block is covered with a shield cut from plexiglas. The shield i
 
 
 ## Box
-Put the sticker on the front panel. The best way to do it is fixating the sticker with a duct tape and removing the backing paper gradually. 6
+Put the sticker on the front panel. The best way to do it is fixating the sticker with a duct tape and removing the backing paper gradually. 
 <div style="text-align:center"><img src="./IED_images/sticker.png" width="300x">  
 </div>
 Construct the rack enclosure, putting the parts together with screws included in the kit
@@ -103,7 +105,7 @@ Attach the USB connector and LED lights to the front panel.
 <div style="text-align:center"><img src="./IED_images/front_panel.png" width="500x">  
 </div>
 
-A large LED is screwed to the panel with a nut.
+A larger green LED is screwed to the panel from the inside of the box.
 
 <div style="text-align:center"><img src="./IED_images/LED_main_nut.jpg" width="500x">  
 </div>
@@ -147,12 +149,12 @@ Connect the 8 long pins to the connector on the board. The left-most wire (red) 
 </div>
 We will only need two of the ground pins, which we connect to the GND terminal pins at the PMOD port.
 
-<div style="text-align:center"><img src="./IED_images/LED_GND2.jpg" width="500x">  
+<div style="text-align:center"><img src="./IED_images/LED_GND2(1).jpg" width="500x">  
 </div>
 
 Some of the pins may be left idle. Here we connect some idle wires for safety. 
 
-<div style="text-align:center"><img src="./IED_images/LED_GND_idle_edited.jpg" width="500x">  
+<div style="text-align:center"><img src="./IED_images/LED_GND_idle_edited(1).jpg" width="500x">  
 </div>
 
 ## Switches
@@ -170,7 +172,7 @@ Plug the switches onto the front panel and attach them with screws.
 <div style="text-align:center"><img src="./IED_images/switches_front.png" width="300x">  
 </div>
 
-The right terminals are connected to the UCC port in one of the PMOD ports.
+The right terminals are connected to the UCC (3.3 V) port in one of the PMOD ports.
 
 <div style="text-align:center"><img src="./IED_images/switches_ucc2.jpg" width="300x">  
 </div>
@@ -178,6 +180,9 @@ The right terminals are connected to the UCC port in one of the PMOD ports.
 ## Power supply wiring 
 
 To connect the devices on the 5V side we will solder multiple wires jointly in the following arrangement. Strip the MTE cables on the "input" and "output" bundles. Before soldering you can intertwine the stranded wires or wrap the bundle with a separate strand. 
+
+<div style="text-align:center"><img src="./IED_images/power_supply_schematic.png" width="500x">  
+</div>
 
 <div style="text-align:center"><img src="./IED_images/power_5V_wires.png" width="500x">  
 </div>
@@ -299,7 +304,7 @@ Similarly to ADC 1, all ground wires are intertwined with the signal wires when 
 ## PMOD DIGITAL INPUT
 The digital input module enables us to incorporate more input signals and transmit them to the board. It is used to receive digital values from a simulator (RTDS). The module looks like this
 
-<div style="text-align:center"><img src="./IED_images/PMOD_DIN.jpg" width="500x"> 
+<div style="text-align:center"><img src="./IED_images/PMOD_DIN_labeled.png" width="500x"> 
 </div>
 
 We plug in the module to the top row of a JD header on the Zedboard.
