@@ -31,22 +31,30 @@ Proceed to mounting the Zedboard using 3 mm screws and nuts.
 
 <div style="text-align:center"><img src="./IED_images/board_mount.png" width="300x">  
 </div>
-## Power supply 
-<div style="text-align:center"><img src="./IED_images/power_supply_white.png" width="300x">  
-</div>
-To connect the switched-mode power supply we will need to install wire-to-board terminal blocks. First, remove the white terminal blocks in place with some help of pliers and a soldering machine. 
-<div style="text-align:center"><img src="./IED_images/remove_white_pins.png" width="300x">  
-</div>
-Solder the terminal blocks in the same position as the removed terminal blocks.
-<div style="text-align:center"><img src="./IED_images/power_supply2.png" width="300x">  
-</div>
-The power supply board is ready. Use 3 mm screws to connect female-to-male space bolts to the bottom panel.
+Screw in 3 mm screws from the bottom of the panel into the holes drilled earlier. Put the female-to-male spacers onto them. 
+
 <div style="text-align:center"><img src="./IED_images/screws_power(1).png" width="300x"> 
 </div>
 <div style="text-align:center"><img src="./IED_images/spacers_power(1).png" width="300x">  
 </div>
 
+## Power supply module
+
+<div style="text-align:center"><img src="./IED_images/power_supply_white.png" width="300x">  
+</div>
+
+To connect the switched-mode power supply we will need to install wire-to-board terminal blocks. First, remove the white terminal blocks in place with some help of pliers and a soldering machine. 
+
+<div style="text-align:center"><img src="./IED_images/remove_white_pins.png" width="300x">  
+</div>
+
+Solder the terminal blocks in the same position as the removed terminal blocks.
+
+<div style="text-align:center"><img src="./IED_images/power_supply2.png" width="300x">  
+</div>
+
 The power supply is plugged in the socket with a power cable. Cut the cable and remove the insulation, there has to be 3 wires: positive, negative and ground.
+
 <div style="text-align:center"><img src="./IED_images/power_cable.png" width="300x">  
 </div>
 <div style="text-align:center"><img src="./IED_images/power_cable_final.png" width="300x">  
@@ -70,14 +78,7 @@ The 230V side of the adaptor will connect these cables, which we have prepared b
 <div style="text-align:center"><img src="./IED_images/power_wires(1).png" width="300x">  
 </div>
 
-Connect them to the feed supply terminals in the following manner. 
-
-<div style="text-align:center"><img src="./IED_images/power_supply_wires.jpg" width="500x"> 
-</div>
-
-
-
-## Box
+## Box and power supply setup
 Put the sticker on the front panel. The best way to do it is fixating the sticker with a duct tape and removing the backing paper gradually. 
 <div style="text-align:center"><img src="./IED_images/sticker.png" width="300x">  
 </div>
@@ -87,7 +88,28 @@ Construct the rack enclosure, putting the parts together with screws included in
 Put the power cable through a cable gland on the outside the box and a lock nut from the inside. Fixate the power cable at the back panel.
 <div style="text-align:center"><img src="./IED_images/power_backside.png" width="300x">  
 </div>
+Connect the positive, negative and ground inner cables to the respective terminals.
+
+<div style="text-align:center"><img src="./IED_images/power_supply_wires(1).jpg" width="500x"> 
+</div>
+
+We add an extra earth cable bind connected to the metal case of an appliance. Here, we used a crimper to connect the ring to the cable.
+
+<div style="text-align:center"><img src="./IED_images/earth_ring_cable.jpg" width="500x"> 
+</div>
+
+<div style="text-align:center"><img src="./IED_images/power_supply_feed.png" width="300x">  
+</div>
+
+The ring is kept in place with a bolt and screw to the bottom edge of the box. 
+
+<div style="text-align:center"><img src="./IED_images/earth_ring.jpg" width="500x"> 
+</div>
+
+
+
 Mount the USB and ethernet connectors, 8 and 10 pin connectors on the back panel. Put the labels to the corresponding ports. 
+
 <div style="text-align:center"><img src="./IED_images/labels_back.png" width="500x">  
 </div>
 
@@ -101,20 +123,7 @@ A larger green LED is screwed to the panel from the inside of the box.
 <div style="text-align:center"><img src="./IED_images/LED_main_nut.jpg" width="500x">  
 </div>
 
-Looking at the power supply, we add an extra earth cable bind connected to the metal case of an appliance. Here, we used a crimper to connect the ring to the cable.
-
-<div style="text-align:center"><img src="./IED_images/earth_ring_cable.jpg" width="500x"> 
-</div>
-
-<div style="text-align:center"><img src="./IED_images/power_supply_feed.png" width="300x">  
-</div>
-
-The ring is kept in place with a bolt and screw to the bottom edge of the box. 
-
-<div style="text-align:center"><img src="./IED_images/earth_ring.jpg" width="500x"> 
-</div>
-
-The power supply block is covered with a shield cut from plexiglas. The shield is attached with 4 machine screws into female spacers. 
+The power supply module is covered with a shield cut from Plexiglas for safety. The shield is attached with 4 machine screws into female spacers. 
 
 <div style="text-align:center"><img src="./IED_images/power_supply_shield.jpg" width="500x"> 
 </div>
